@@ -4,7 +4,7 @@ if word.match(/[aeiou]/)
   return true 
 elsif word.match(/(?=[^aeiou])(?=[a-z])/)
 
-  return false 
+return false 
 end 
 end
 
