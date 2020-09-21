@@ -1,6 +1,6 @@
 def starts_with_a_vowel?(word)
 # if word =~ /\A[aeiou]/
-if word.start
+if word.start_with?(/\A[aeiou]/)
   return true 
 # elsif word.match(/\A(?=[^aeiou])(?=[a-z])/i)
 else 
